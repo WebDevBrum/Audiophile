@@ -3,5 +3,5 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
-  return <div className="bg-orange">Im the home page</div>;
+  return <div className="font-manMed text-H1">Im the test page</div>;
 }

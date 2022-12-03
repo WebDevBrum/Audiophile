@@ -35,6 +35,10 @@ module.exports = {
       OVERLINE: "14px", //reg
       BODY: "15px", //medium
     },
+
+    letterSpacing: {
+      twopx: ".125em",
+    },
     borderRadius: {
       // buttons: "10px",
       // search: "15px",
@@ -86,6 +90,7 @@ module.exports = {
         // 97: "41.563rem",
         // 98: "35.813rem",
         // 100: "45.625rem",
+        98: "26.81rem",
       },
       screens: {
         minDesktop: "1024px",

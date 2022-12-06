@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import Image from "next/image";
-import cart from "../../../public/assets/images/shared/desktop/icon-cart.svg";
-import logo from "../../../public/assets/images/shared/desktop/logo.svg";
-import burger from "../../../public/assets/images/shared/tablet/icon-hamburger.svg";
+import cart from "../../../public/assets/shared/desktop/icon-cart.svg";
+import logo from "../../../public/assets/shared/desktop/logo.svg";
+import burger from "../../../public/assets/shared/tablet/icon-hamburger.svg";
 
 const Header = () => {
   const [menu, setMenu] = useState(false);
@@ -27,7 +27,7 @@ const Header = () => {
               src={burger}
               alt={"dropdown"}
               onClick={() => setMenu(!menu)}
-              className="hidden mintablet:visible minDesktop:hidden text-white minTablet:inline-block minTablet:mr-10.5"
+              className="hidden  minDesktop:hidden text-white minTablet:inline-block minTablet:mr-10.5"
             />
 
             <Image src={logo} alt="cart" className="inline-block" />

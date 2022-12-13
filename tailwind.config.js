@@ -84,6 +84,7 @@ module.exports = {
         9.5: "2.4375rem",
         10.5: "2.625rem",
         41: "10.31rem",
+        51: "12.375rem",
         53: "13.5rem",
         57: "14.06rem",
 
@@ -100,7 +101,7 @@ module.exports = {
         98: "26.81rem",
       },
       screens: {
-        minDesktop: "1110px", // was 1024
+        minDesktop: "1100px", // was 1024
         minTablet: "601px",
 
         // => @media (min-width: 640px) { ... }

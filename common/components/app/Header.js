@@ -8,9 +8,11 @@ const Header = () => {
   const [menu, setMenu] = useState(false);
 
   return (
-    <>
+    <div className="">
       <div
-        className={"h-24  bg-otherBlack minTablet:bg-opacity-0 flex w-full "}
+        className={
+          "h-24 absolute top-0 bg-otherBlack minTablet:bg-opacity-0 flex w-full "
+        }
       >
         <div className="flex h-full w-full justify-between mx-6 pt-8  minTablet:mx-9.5  minDesktop:mx-41 minTablet:border-b minTablet:border-white minTablet:border-opacity-20  ">
           <div className="minTablet:hidden text-white">
@@ -48,7 +50,7 @@ const Header = () => {
       <div className={`${!menu && "hidden"} fixed top-30 bg-grey w-full h-40`}>
         Hello im a placeholder
       </div>
-    </>
+    </div>
   );
 };
 

@@ -67,9 +67,28 @@ export default function Home() {
             width={122.95}
             height={160}
             className={"h-[216px] w-[216px] mx-auto"}
+            alt="item"
           />
           <div className="bg-lightGrey -z-20 h-[204px] w-[350px] mt-[-140px] ">
-            <p>headphones</p>
+            <div className="flex flex-col h-full justify-end">
+              <p className="font=manBold text-H6 leading-[24.59px] mb-[15px] tracking-[1.29px] ">
+                HEADPHONES
+              </p>
+              <div className="flex w-full justify-center mb-[30px] align-middle">
+                <p className=" font=manBold text-SUB opacity-50 leading-[17.76px]">
+                  SHOP
+                </p>
+                <div className="h-[12px] w-[8px] mt-[3px] ml-[13.52px]">
+                  <Image
+                    className={"hidden minDesktop:block  -z-20 w-full"}
+                    src={"/assets/shared/desktop/icon-arrow-right.svg"}
+                    width={8}
+                    height={12}
+                    alt={"headphones hero"}
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -79,9 +98,28 @@ export default function Home() {
             width={122.95}
             height={160}
             className={"h-[216px] w-[216px] mx-auto"}
+            alt="item"
           />
           <div className="bg-lightGrey -z-20 h-[204px] w-[350px] mt-[-140px] ">
-            <p>headphones</p>
+            <div className="flex flex-col h-full justify-end">
+              <p className="font=manBold text-H6 leading-[24.59px] mb-[15px] tracking-[1.29px] ">
+                SPEAKERS
+              </p>
+              <div className="flex w-full justify-center mb-[30px] align-middle">
+                <p className=" font=manBold text-SUB opacity-50 leading-[17.76px]">
+                  SHOP
+                </p>
+                <div className="h-[12px] w-[8px] mt-[3px] ml-[13.52px]">
+                  <Image
+                    className={"hidden minDesktop:block  -z-20 w-full"}
+                    src={"/assets/shared/desktop/icon-arrow-right.svg"}
+                    width={8}
+                    height={12}
+                    alt={"headphones hero"}
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div className="text-center ">
@@ -92,9 +130,28 @@ export default function Home() {
             width={122.95}
             height={160}
             className={"h-[216px] w-[216px] mx-auto"}
+            alt="item"
           />
           <div className="bg-lightGrey -z-20 h-[204px] w-[350px] mt-[-140px] ">
-            <p>headphones</p>
+            <div className="flex flex-col h-full justify-end">
+              <p className="font=manBold text-H6 leading-[24.59px] mb-[15px] tracking-[1.29px] ">
+                EARPHONES
+              </p>
+              <div className="flex w-full justify-center mb-[30px] align-middle">
+                <p className=" font=manBold text-SUB opacity-50 leading-[17.76px]">
+                  SHOP
+                </p>
+                <div className="h-[12px] w-[8px] mt-[3px] ml-[13.52px]">
+                  <Image
+                    className={"hidden minDesktop:block  -z-20 w-full"}
+                    src={"/assets/shared/desktop/icon-arrow-right.svg"}
+                    width={8}
+                    height={12}
+                    alt={"headphones hero"}
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
